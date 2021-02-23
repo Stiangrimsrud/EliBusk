@@ -1,17 +1,3 @@
-
-# Airbnb App Clone in React Native
-
-This is my first React Native project done with expo.
-[Demo Video](https://youtu.be/RHxPceOgMB0)
-
-Desktop version in React can be found [here](https://github.com/wecode-bootcamp-korea/Codebnb-frontend).
-
-### Goal
-
-- Componentize reusable features
-- Learn to utilize popular libraries
-- Add messaging feature using socket.io
-
 ### Librares used
 
 - react navigation
@@ -56,8 +42,6 @@ Desktop version in React can be found [here](https://github.com/wecode-bootcamp-
 
 ### colors
 
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/config-colors2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/config-colors2x.png)
-
 **Example**
 
 ```jsx
@@ -71,7 +55,6 @@ const Container = styled.View`
 	color: ${colors.red}
 `
 ```
-
 
 ### Typography
 
@@ -93,9 +76,6 @@ const Common = styled.SafeAreaView`
 `;
 ```
 
-**Types**
-
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/Typography2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/Typography2x.png)
 
 **Example**
 
@@ -110,8 +90,6 @@ import * as Typography from "../config/typography.js";
 
 **Button Types**
 
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/Buttons2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/Buttons2x.png)
-
  1. Contained Button
 
  2. Outlined Button
@@ -124,9 +102,6 @@ import * as Typography from "../config/typography.js";
 
  6. Underlined Text Button
 
-**Anatomy**
-
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/Buttons_Anatomy2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/Buttons_Anatomy2x.png)
 
 **Example**
 
@@ -147,19 +122,7 @@ import * as Button from "../components/Button.js";
 
 ### Lists
 
-**List Types**
 
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/List2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/List2x.png)
-
- 1. Default list item with contained icon 
-
- 2. Default list item with icon to the right
-
- 3. User list item
-
-**List Anatomy**
-
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/List_Anatomy2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/List_Anatomy2x.png)
 
 **Example**
 
@@ -186,20 +149,6 @@ import * as List from "../components/List.js";
 ```
 
 
-### Cards
-
-**Card Types**
-
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/Cards2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/Cards2x.png)
-
- 1. Default
-
- 2. Review
-
-**Card Anatomy**
-
-![Airbnb%20App%20Clone%20in%20React%20Native%20e414bb4f4fda4b6ca31d864007637f2d/Cards_Anatomy2x.png](https://raw.githubusercontent.com/brandnewjinah/react-native-airbnb-clone/feature/detail/airbnb/app/assets/Cards_Anatomy2x.png)
-
 **Example**
 
 ```jsx
@@ -215,8 +164,3 @@ import * as Cards from "../components/Cards.js";
 />
 ```
 
-
-### Issues to resolve in the future
-
-- keyboardshouldpersist
-- Typescript
